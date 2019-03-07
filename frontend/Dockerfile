@@ -12,8 +12,8 @@ ENV PATH /usr/src/app/node_modules/.bin:$PATH
 COPY package.json /usr/src/app/package.json
 RUN npm install
 RUN npm install react-scripts@1.1.1 -g
-RUN npm install --save laravel-echo socket.io-client
-RUN npm install --save laravel-echo
+RUN npm install --save prop-types
+RUN npm i redux react-redux --save
 
 # start app
 CMD npm start

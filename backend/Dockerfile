@@ -39,10 +39,10 @@ RUN groupadd -g 1000 www
 RUN useradd -u 1000 -ms /bin/bash -g www www
 
 # Copy existing application directory contents
-COPY . /var/www/rest
+COPY . /var/www/backend
 
 # Copy existing application directory permissions
-COPY --chown=www:www . /var/www/rest
+COPY --chown=www:www . /var/www/backend
 
 # Change current user to www
 USER www

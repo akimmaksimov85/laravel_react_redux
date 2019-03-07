@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('v1/players', 'PlayerController@index');
+Route::get('v1/players/{id}', 'PlayerController@show');
+Route::post('v1/players', 'PlayerController@store');
+Route::post('v1/players/{id}/answers', 'PlayerController@answer');
+Route::delete('v1/players/{id}', 'PlayerController@delete');
+Route::delete('v1/players/{id}/answers', 'PlayerController@resetAnswers');
