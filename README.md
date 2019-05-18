@@ -1,4 +1,4 @@
-# laravel_react
+# laravel + react. Starter pack
 This is starter pack with php laravel and js react framework.
 
 1. git clone https://github.com/akimmaksimov85/laravel_react_redux.git && cd laravel_react
