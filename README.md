@@ -9,8 +9,8 @@ Frontend:
 http://localhost:30001/
 
 Endpoints:
-1. GET http://api.test/api/v1/tasks - get all tasks;
-2. GET http://api.test/api/v1/tasks/{taskId} - get task by id;
-3. POST http://api.test/api/v1/tasks - create task;
-4. PUT http://api.test/api/v1/tasks/{taskId} - update task by id;
-5. DELETE http://api.test/api/v1/tasks/{taskId} - delete task by id.
+1. GET http://localhost:8090/api/v1/tasks - get all tasks;
+2. GET http://localhost:8090/api/v1/tasks/{taskId} - get task by id;
+3. POST http://localhost:8090/api/v1/tasks - create task;
+4. PUT http://localhost:8090/api/v1/tasks/{taskId} - update task by id;
+5. DELETE http://localhost:8090/api/v1/tasks/{taskId} - delete task by id.
