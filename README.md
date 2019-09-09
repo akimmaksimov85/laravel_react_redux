@@ -1,7 +1,7 @@
 # laravel + react. Starter pack
 This is starter pack with php laravel and js react framework.
 
-1. git clone https://github.com/akimmaksimov85/laravel_react_redux.git && cd laravel_react
+1. git clone https://github.com/akimmaksimov85/laravel_react_redux.git && cd laravel_react_redux
 2. docker-compose up -d --build
 3. docker-compose exec backend composer install
 
